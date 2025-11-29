@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon matbook-api.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Nothing to build – pure Node.js app'",
   },
   "author": "matbook",
   "license": "ISC",
