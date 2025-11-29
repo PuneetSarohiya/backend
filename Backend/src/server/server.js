@@ -29,7 +29,7 @@ app.use('/api/submission', submission)
 
 const port = process.env.PORT || 5000; 
 
-mongoose.connect(mongodb+srv://Menmaven:Puneet8292@cluster0.9k5ev.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
+mongoose.connect(process.MONGO_URL))
   .then(() => {
     console.log("Connected to MongoDB");
     app.listen(port, () => {
